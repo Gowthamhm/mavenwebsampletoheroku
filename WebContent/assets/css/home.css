@@ -1,0 +1,91 @@
+@charset "ISO-8859-1";
+
+.clf{
+	    border: 3px solid whitesmoke;
+    background-color: midnightblue;
+    color: white;
+    border-radius: 17px;
+}
+.clf:hover {
+   border: 3px solid #400040;
+    background-color: #ffffff;
+    color: #400040;
+    border-radius: 17px;
+}
+
+
+.fol{
+	border: 3px solid whitesmoke;
+    background-color: black;
+    color: white;
+    border-radius: 17px;
+}
+.fol:hover {
+   border: 3px solid #400040;
+    background-color: #ffffff;
+    color: #400040;
+    border-radius: 17px;
+}
+
+
+.container{
+	height: 90%;
+    padding: 4%;
+    margin-top: 2%;
+    margin-left: 8%;
+}
+
+.cre{
+	    border: 3px solid whitesmoke;
+    background-color: midnightblue;
+    color: white;
+    border-radius: 17px;
+}
+.cre:hover{
+    border-radius: 17px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.logout{
+    padding-left: 71%;
+    font-size: 21px;
+    color: white;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.logout{
+    padding-left: 83%;
+    font-size: 23px;
+    color: white;
+}
+	}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.logout{
+    padding-left: 84%;
+    font-size: 23px;
+    color: white;
+}
+	}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.logout{
+	padding-left: 85%;
+    font-size: 25px;
+    color: white;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.logout{
+	padding-left: 88%;
+    font-size: 25px;
+    color: white;
+}
+}
